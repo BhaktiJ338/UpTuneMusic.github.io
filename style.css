@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(38, 38, 38);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Nunito', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(96, 31, 96);
+    color: rgb(191, 203, 214);
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 46px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 64.5vh;
+    background-color: #000000;
+    color: rgb(64, 64, 64);
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    border-radius: 12px;
+    width: 70%;
+    padding: 34px;
+    background-image: url('images/guitarBG.jpg');
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: #000000;
+    color: rgb(64, 64, 64);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItem{
+    
+    height: 45px;
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 15px;
+}
+.songItemsContainer{
+    margin-top: 54px;
+}
+.timeStamp{
+    margin: 0 23px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+}
