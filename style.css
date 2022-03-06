@@ -63,6 +63,7 @@ nav ul li{
 }
 .icons i{
     cursor: pointer;
+    color: #601F60;
 }
 #myProgressBar{
     width: 80vw;
