@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Varela+Round&display=swap');
 body{
-    background-color: rgb(38, 38, 38);
+    background-color: #00ADB5;
 }
 *{
     margin: 0;
@@ -16,7 +16,7 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: rgb(96, 31, 96);
+    background-color: #222831;
     color: rgb(191, 203, 214);
 }
 nav ul li{
@@ -51,7 +51,7 @@ nav ul li{
     position: sticky;
     height: 90px;
     background-color: #000000;
-    color: rgb(64, 64, 64);
+    color: #00ADB5;
     bottom: 0;
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@ nav ul li{
 }
 .icons i{
     cursor: pointer;
-    color: #601F60;
+    color: #00ADB5;
 }
 #myProgressBar{
     width: 80vw;
@@ -73,7 +73,7 @@ nav ul li{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     height: 45px;
     display: flex;
-    background-color: white;
+    background-color: #EEEEEE;
     border-radius: 8px;
     margin: 12px 0;
     justify-content: space-between;
